@@ -15,7 +15,7 @@ function preload(){
   diamondsImg = loadImage("diamonds.png");
   jewelryImg = loadImage("jwell.png");
   swordImg = loadImage("sword.png");
-  endImg =loadAnimation("gameOver.png");
+  
 }
 
 function setup(){
@@ -79,15 +79,7 @@ function draw() {
       if(swordGroup.isTouching(boy)) {
         gameState=END;
         
-        // boy.addAnimation(endImg);
-        // boy.addAnimation("SahilRunning",endImg);
-        // boy.addAnimation("SahilRunning");
-        // boy.addAnimation(SahilRunning,endImg);
-
-        boy.x=200;
-        boy.y=300;
-        boy.scale=0.6;
-        
+       
         // cashG.destroyEach;
         // diamondsG.destroyEach;
         // jewelryG.destroyEach;
