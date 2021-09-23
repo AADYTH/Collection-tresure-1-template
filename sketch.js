@@ -16,7 +16,6 @@ function preload(){
   jewelryImg = loadImage("jwell.png");
   swordImg = loadImage("sword.png");
   
-  gover = loadImage("gameOver.png");
   
 }
 
@@ -107,9 +106,6 @@ function draw() {
         jewelryG.setVelocityYEach(0);
         swordGroup.setVelocityYEach(0);
         
-         over = createSprite(180,280,20,20);
-         over.addAnimation("gameover",gover);
-        over.scale=0.7
      
     }
   }
